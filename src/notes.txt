@@ -15,3 +15,57 @@
 9) Static & dynamic rendering
 10) Middleware
 11) Production build and deploying
+
+
+App directory is a server component. 
+and also all the pages are also in the server component
+
+
+if we want to use the files in the client component then we have to 
+mention "use client" at the top of the file. so that it will become the 
+client component. 
+
+and also the main benifit of the server component is that the data will not 
+be transffered to the client's browser. if we keep the client component then 
+the data would not be transffered. 
+so we can keep the large dependencies at the server component so that the app would perform 
+much faster. 
+
+data fetching is also available in the server compenent, and to use that data we will 
+use the server actions like  put  , post, delete.
+
+if we want to use the fetch at the server compoenet. we have to create a funciton 
+to store all the fetcing code. and in that function we have to use the "use server"
+so that. that function uses the server compoenet to fetch the data. 
+
+
+
+Suspense and streaming:- 
+
+this is basically loading file. 
+
+you can design the loading.tsx file so that when ever there is a loading happens
+then. it will show the loading.tsx animation.
+
+but the Suspense is something we will use when we want to show the animation only 
+to the component. and not the entire page. then we will use the Suspense
+
+cathcing, static and dynamic rendering.
+
+every time we referesh we will get the same data based on the data 
+that has been stored in the browser. but if we want to change that. then we have to
+use the dynamic rendering. 
+
+export const dynamic = "force-dynamic"
+
+so that it will become dynamic and updates the data. 
+
+
+Middleware
+
+middlewares are basically helps in the authentication part of the website. 
+where we can check weather the user is login or not. and also it is basically the process in 
+between the sends and the receiver. acts as a middle man. and check the authentication. 
+
+
+
