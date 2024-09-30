@@ -67,5 +67,17 @@ middlewares are basically helps in the authentication part of the website.
 where we can check weather the user is login or not. and also it is basically the process in 
 between the sends and the receiver. acts as a middle man. and check the authentication. 
 
+Folder and structure is good in the next.js 
 
+Production build and deploying is better in the next.js compare to the react.js 
+
+when you use the build command then (next build). a new file will be created.we also have to 
+use the environment variables in the folder. for the prisma database. it is not a secrect 
+variable but it is good to have and 
+for secrects we will use the ".env.local" file.
+
+
+
+// completed learning all the importing topics of the next.js 
+if there are any examples i want to save. i will save in this repository.
 
